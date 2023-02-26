@@ -72,7 +72,8 @@ python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
 As mentioned in the above, when Pacman comes to the conclusion that his death is inevitable, he tries to lose early in order to avoid losing points. But in this particular case, if he tries to escape to eat some more pieces of food, the game may continue.
 ## Evaluation function
 We created a better evaluation function for Pacman in betterEvaluationFunction. This evaluation function should evaluate the states instead of the action. The evaluation function should complete the smallClassic scenario with a random ghost in half the time and win in search of depth 2.
-
+## Known Issues
+There aren't currently any issues so far so if you find any please create an issue on this repository. Any suggestions for implementation would also be greatly appreciated.
 
 
 
